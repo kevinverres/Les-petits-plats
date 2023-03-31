@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Les Petits Plats</title>
+
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/f511e8da8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header_logo">
+                <img src="/assets/img/logo.png" alt="Logo les petit Plats">
+                <div class="div_error"><span class="error"></span></div>
+            </div>
+            <div class="header_search">
+                <input type="search" name="" id="search" placeholder="Rechercher une recette"
+                    aria-placeholder="Rechercher une recette">
+                <span class="header_search_icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <div class="header_search_result"></div>
+            </div>
+            <div class="tags">
+                <div class="tags_ingredient"></div>
+                <div class="tags_appliance"></div>
+                <div class="tags_ustensil"></div>
+            </div>
+            <div class="header_search_details">
+                <div class="button_search button_search_ingredients">
+                    <button id="button_ingredients">Ingredients<i class="fa-solid fa-chevron-down"></i></button>
+                    <div id="search_ingredients">
+                        <div class="search-details">
+                            <input type="search" name="" id="input_search_ingredients"
+                                placeholder="Rechercher un ingredients" aria-placeholder="Rechercher un ingredients">
+                            <span class="search_icon"><i class="fa-solid fa-chevron-up"></i></span>
+                        </div>
+                        <div>
+                            <ul class="ul-grid" id="ul-ingredient"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="button_search button_search_machine">
+                    <button id="button_appliances">Appareils<i class="fa-solid fa-chevron-down"></i></button>
+                    <div id="search_appliances">
+                        <div class="search-details">
+                            <input type="search" name="" id="input_search_appliances"
+                                placeholder="Rechercher un appareils" aria-placeholder="Rechercher un appareils">
+                            <span class="search_icon"><i class="fa-solid fa-chevron-up"></i></span>
+                        </div>
+                        <div>
+                            <ul class="ul-grid" id="ul-appliance"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="button_search button_search_utensils">
+                    <button id="button_ustensils">Ustensiles<i class="fa-solid fa-chevron-down"></i></button>
+                    <div id="search_ustensils">
+                        <div class="search-details">
+                            <input type="search" name="" id="input_search_ustensils"
+                                placeholder="Rechercher un ustensiles" aria-placeholder="Rechercher un ustensiles">
+                            <span class="search_icon"><i class="fa-solid fa-chevron-up"></i></span>
+                        </div>
+                        <div>
+                            <ul class="ul-grid" id="ul-ustensil"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script type="module" src="/assets/js/recipes.js"></script>
+</body>
+
+</html>
