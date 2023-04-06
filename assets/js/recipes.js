@@ -1728,7 +1728,7 @@ const recipes = [
     }
 ]
 
-let program = 0;
+let program = 1;
 const body = document.querySelector('body');
 function init() {
     // Récupère les datas
