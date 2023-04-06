@@ -320,7 +320,7 @@ function getData1() {
       searchByInput();
       searchByTag(filteredRecipes, tag);
     }
-    if (firstSearch.value == "") {
+    if (search.value == "") {
       tagsIngredient = [];
       tagsAppliance = [];
       tagsUstensil = [];
